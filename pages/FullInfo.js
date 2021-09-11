@@ -26,7 +26,6 @@ export default function FullInfo({route}) {
 
     let ingredients = []
 
-
     if (fullInfo) {
         for (let key in fullInfo) {
             if (key.includes('strIngredient') && fullInfo[key]) {
